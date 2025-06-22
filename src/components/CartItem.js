@@ -18,11 +18,12 @@ const CartItem = ({ post }) => {
   <div className=" flex  gap-3 ">
 
     {/* Product Image on Top */}
-    <div className="w-50 h-48 flex-col ">
+    <div className=" flex-col ">
       <img
         src={post.image}
         alt={post.title}
-        className="w-60 h-48 object-contain"
+        className="w-72 h-40 "
+        // w-60 h-48 object-contain
       />
     </div>
 
