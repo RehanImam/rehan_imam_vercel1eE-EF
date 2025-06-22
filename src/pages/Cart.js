@@ -82,7 +82,7 @@ const Cart = () => {
           <p className="text-xl font-semibold text-gray-800 mb-3">
             Total Amount: <span className="text-green-700">${totalAmount.toFixed(2)}</span>
           </p>
-          <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-6 rounded-lg shadow">
+          <button className="bg-green-600 hover:bg-green-700 text-white font-bold py-2 px-4 rounded-lg shadow">
             Checkout Now
           </button>
         </div>
