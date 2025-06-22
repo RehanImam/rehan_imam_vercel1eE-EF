@@ -1,3 +1,11 @@
+
+.spinner-container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .spinner {
   width: 50px;
   height: 50px;
@@ -6,14 +14,11 @@
     radial-gradient(farthest-side,#766DF4 94%,#0000) top/8px 8px no-repeat,
     conic-gradient(#0000 30%,#766DF4);
   -webkit-mask: radial-gradient(farthest-side,#0000 calc(100% - 8px),#000 0);
-  animation:s3 1s infinite linear;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  animation: s3 1s infinite linear;
 }
 
-@keyframes s3{ 
-  100%{transform: rotate(1turn)}
+@keyframes s3 { 
+  100% { transform: rotate(1turn); }
 }
 
 
